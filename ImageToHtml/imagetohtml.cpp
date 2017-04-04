@@ -335,5 +335,5 @@ void ImageToHtml::mouseMoveEvent(QMouseEvent * e)
 void ImageToHtml::paintEvent(QPaintEvent *e)
 {
 	QPainter painter(this);
-	painter.fillRect(this->rect(), QColor(102,204,250, 200));
+	painter.fillRect(this->rect(), QColor(102,204,250, 205));
 }
